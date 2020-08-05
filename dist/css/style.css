@@ -3,7 +3,7 @@ PRESETTING
 */
 
 /* 
-used color => #6c19dc;
+used color => #747EC8;
 */
 
 *{
@@ -37,6 +37,11 @@ HEADER
 header{
     height: 250px;
     overflow: hidden;
+    width: 100%
+}
+
+header img{
+    width: 100%;
 }
 
 
@@ -54,7 +59,7 @@ FILE UPLOAD
 .input-block{
     
     text-align: center;
-    width: 50%;
+    width: 65%;
     margin-right: 10%;
     height: 70px;
     float: right;
@@ -70,7 +75,7 @@ FILE UPLOAD
 
 .add-icon{
     display: inline-block;
-    color: #6c19dc;
+    color:#747ec8;
     padding: 1.6% ;
     font-size: 250%;
     float: left;
@@ -85,7 +90,7 @@ FILE UPLOAD
 }
 
 .up-label:hover{
-    color: #6c19dc;
+    color: #747ec8;
     
 }
 
@@ -102,9 +107,9 @@ HELP BUTTONS
 
 .help-buttons button{
     display: block;
-    padding: 6% 0;
-    background-color: #6c19dc;
-    height: 40%;
+    background-color: #747ec8;
+    height: 45%;
+    width: 15%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     -webkit-transition: left .3s;
@@ -120,7 +125,8 @@ HELP BUTTONS
     font-size: 120%;
     font-weight: 300;
     font-style: italic;
-    color: #e5e6e8
+    color: #e5e6e8;
+    
 }
 
 .apply-btn{
@@ -153,7 +159,7 @@ h1{
     font-family: 'Tajawal', sans-serif;
     font-weight: 400;
     font-size: 140%;
-    background-color: #6c19dc;
+    background-color: #1b5871;
     width: 30%;
     padding: 10px 0;
     text-align: center;
@@ -167,11 +173,11 @@ h1{
 }
 
 .determineds div{
-    width: 50%;
+    width: 80%;
     margin: 20px auto 0 auto;
     text-align: center;
     padding: 10px;
-    background-color: #6c19dc;
+    background-color: #747ec8;
     border-radius: 10px;
 }
 .determineds label{
@@ -180,7 +186,7 @@ h1{
     color: white;
 }
 .determineds input{
-    width: 80%;
+    width: 50%;
     border-radius: 10px;
     text-align: center;
 }
@@ -279,7 +285,7 @@ sub_input-data
     top: 15px;
     height: 28px;
     border-radius: 5px;
-    background-color:  #6c19dc;
+    background-color:  #1b5871;
     color: white;
 }
 .inputs-box{
@@ -292,7 +298,7 @@ sub_input-data
 
 .little-inputs{
     display: inline-block;
-    background-color: #6c19dc;
+    background-color: #1b5871;
     width: 23%;
     text-align: center;
     border-radius: 5px;
