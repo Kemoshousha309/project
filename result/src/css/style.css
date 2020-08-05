@@ -1,0 +1,316 @@
+/*********************************************
+PRESETTING 
+*/
+
+/* 
+used color => #6c19dc;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background-color: #efefef;
+}
+
+.row{
+    width: 100%;
+    margin: 20px 0 0 0; 
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+/*********************************************
+HEADER
+*/
+
+header{
+    height: 250px;
+    overflow: hidden;
+}
+
+
+/*********************************************
+FILE UPLOAD 
+*/
+
+.sec-1{
+    margin-bottom: 0;
+}
+
+.inputfile{
+        display: none;
+}
+.input-block{
+    
+    text-align: center;
+    width: 50%;
+    margin-right: 10%;
+    height: 70px;
+    float: right;
+    background-color: #d1d0fc;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.up-label,
+.add-icon{
+    font-size: 200%;            
+}
+
+.add-icon{
+    display: inline-block;
+    color: #6c19dc;
+    padding: 1.6% ;
+    font-size: 250%;
+    float: left;
+}
+
+.up-label{
+    display: inline-block;
+    cursor: pointer;
+    padding: 1.5%;
+    -webkit-transition: color .2s;
+    transition: color .2s;   
+}
+
+.up-label:hover{
+    color: #6c19dc;
+    
+}
+
+
+/*********************************************
+HELP BUTTONS
+*/
+
+.help-buttons{
+    width: 30%;
+    height: 220px;
+    position: relative;
+}
+
+.help-buttons button{
+    display: block;
+    padding: 6% 0;
+    background-color: #6c19dc;
+    height: 40%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-transition: left .3s;
+    transition: left .3s;
+}
+
+
+
+
+.help-buttons p{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-size: 120%;
+    font-weight: 300;
+    font-style: italic;
+    color: #e5e6e8
+}
+
+.apply-btn{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    
+    
+}
+
+.apply-btn:hover,
+.help-btn:hover{
+    left: 10px;
+    border-radius: 20px;    
+}
+.help-btn{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    
+}
+
+
+
+/*********************************************
+DETEMINEDS DATA
+*/
+
+h1{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 140%;
+    background-color: #6c19dc;
+    width: 30%;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+*:focus{        
+    outline: none;
+}
+
+.determineds div{
+    width: 50%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #6c19dc;
+    border-radius: 10px;
+}
+.determineds label{
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+.determineds input{
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*
+.determineds input{
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 2px solid #e5e5e5;
+    padding: 4px 0;
+    background-color: #6c19dc;
+    color: white;
+}
+*/
+
+/* changing the placeholder color in almost all browsers */
+
+::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+
+/*********************************************
+sub_input-data  
+*/
+
+.sub_input-data{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+    
+}
+
+.sub-input{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height: 80px;
+    padding: 5px;
+    background-color: #d1d0fc; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sub_input-data p{
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    text-align: right;
+    display: inline-block;
+    width: 35%;
+    margin-right: 2%;
+    
+}
+.sub-name{
+    margin-left: 20%;
+    
+}
+
+.sub_input-data input{
+    width: 90%;
+    border-radius: 6px;
+    border: 2px solid #e5e5e5;
+    margin: 4px;
+    text-align: center;
+}
+.sub_input-data select{
+    width: 15%;
+    position: absolute;
+    top: 15px;
+    height: 28px;
+    border-radius: 5px;
+    background-color:  #6c19dc;
+    color: white;
+}
+.inputs-box{
+    position: absolute;
+    top: 12px;
+    right: 34%;
+    width: 50%;
+    
+}
+
+.little-inputs{
+    display: inline-block;
+    background-color: #6c19dc;
+    width: 23%;
+    text-align: center;
+    border-radius: 5px;
+}
+.little-inputs label{
+    display: block;
+    padding-top: 6px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
